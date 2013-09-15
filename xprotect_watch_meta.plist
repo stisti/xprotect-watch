@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>fi.iki.sti.xprotect_watch</string>
+    <string>fi.iki.sti.xprotect_watch.meta</string>
     <key>ProgramArguments</key>
     <array>
         <string>/usr/local/bin/growlnotify</string>
         <string>--title</string>
         <string>XProtect Update</string>
         <string>--message</string>
-        <string>XProtect.plist was updated</string>
+        <string>XProtect plugin plist was updated</string>
         <string>--sticky</string>
     </array>
     <key>WatchPaths</key>
     <array>
-        <string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.plist</string>
+        <string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/XProtect.meta.plist</string>
     </array>
 </dict>
 </plist>
